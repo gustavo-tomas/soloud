@@ -13,6 +13,8 @@ project "soloud"
         "include/**.h",
         "src/core/**.cpp",
 
+		"src/filter/soloud_echofilter.cpp",
+
         "src/backend/alsa/**.cpp",
 
         "src/audiosource/speech/**.h",
